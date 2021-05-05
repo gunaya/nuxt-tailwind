@@ -115,10 +115,15 @@
                         </div>
                     </div>
                     <div class="-mr-2 flex md:hidden">
+                        <!-- Color changer -->
+                        <div class="ml-3">
+                            <color-mode />
+                        </div>
+
                         <!-- Mobile menu button -->
                         <button
                             @click="toggle"
-                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-teal-700 focus:outline-none focus:bg-teal-700 focus:text-white"
                         >
                             <svg
                                 :class="[
@@ -160,17 +165,17 @@
                 <div class="px-2 pt-2 pb-3 sm:px-3">
                     <a
                         href="#"
-                        class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-white bg-teal-700 focus:outline-none focus:text-white focus:bg-gray-700"
                         >Dashboard</a
                     >
                     <a
                         href="#"
-                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                         >Team</a
                     >
                     <a
                         href="#"
-                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                         >Projects</a
                     >
                 </div>
@@ -185,12 +190,12 @@
                         </div>
                         <div class="ml-3">
                             <div
-                                class="text-base font-medium leading-none text-white"
+                                class="text-base font-medium leading-none text-teal-800 dark:text-gray-100"
                             >
                                 Tom Cook
                             </div>
                             <div
-                                class="mt-1 text-sm font-medium leading-none text-gray-400"
+                                class="mt-1 text-sm font-medium leading-none text-gray-700 dark:text-gray-300"
                             >
                                 tom@example.com
                             </div>
@@ -199,17 +204,17 @@
                     <div class="mt-3 px-2">
                         <a
                             href="#"
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                             >Your Profile</a
                         >
                         <a
                             href="#"
-                            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                             >Settings</a
                         >
                         <a
                             href="#"
-                            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                             >Sign out</a
                         >
                     </div>
