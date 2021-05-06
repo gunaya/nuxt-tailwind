@@ -1,19 +1,21 @@
 <template>
-  <div class="bg-gray-200 dark:bg-midnight w-full h-full min-w-screen min-h-screen">
+  <div class="bg-white dark:bg-midnight w-full h-full min-w-screen min-h-screen">
     <app-navbar />
     <!-- content -->
-    <div class=" pt-4">
+    <div class="">
       <Nuxt />
     </div>
 
-    
+    <app-footer />
   </div>
 </template>
 
 <script>
+import AppFooter from '../components/template/AppFooter.vue'
 import AppNavbar from '../components/template/AppNavbar'
 export default {
-  components: {AppNavbar}
+  components: {AppNavbar, AppFooter},
+  scrollToTop: true
 }
 </script>
 

@@ -21,7 +21,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    
+    { src: "@/plugins/aos", mode: "client" },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -46,7 +46,7 @@ export default {
   },
   
   purgeCSS: {
-    whitelist: ['dark-mode']
+    whitelist: ['dark-mode', "aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"]
   },
 
   colorMode: {
