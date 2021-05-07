@@ -50,7 +50,7 @@
                         <!-- Mobile menu button -->
                         <button
                             @click="toggle"
-                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-teal-700 focus:outline-none focus:bg-teal-700 focus:text-white"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-teal-700 focus:outline-none focus:bg-teal-700 dark:focus:bg-indigo-800 focus:text-white"
                         >
                             <svg
                                 :class="[
@@ -90,61 +90,21 @@
             </div>
             <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
                 <div class="px-2 pt-2 pb-3 sm:px-3">
-                    <a
-                        href="/"
+                    <NuxtLink
+                        to="/"
                         class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                        >Home</a
+                        >Home</NuxtLink
                     >
-                    <a
-                        href="/projects"
+                    <NuxtLink
+                        to="/projects"
                         class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                        >Projects</a
+                        >Projects</NuxtLink
                     >
                     <a
                         href="#"
                         class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                         >Team</a
                     >
-                </div>
-                <div class="pt-4 pb-3 border-t border-gray-700">
-                    <div class="flex items-center px-5">
-                        <div class="flex-shrink-0">
-                            <img
-                                class="h-10 w-10 rounded-full"
-                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                alt
-                            />
-                        </div>
-                        <div class="ml-3">
-                            <div
-                                class="text-base font-medium leading-none text-teal-800 dark:text-gray-100"
-                            >
-                                Tom Cook
-                            </div>
-                            <div
-                                class="mt-1 text-sm font-medium leading-none text-gray-700 dark:text-gray-300"
-                            >
-                                tom@example.com
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-3 px-2">
-                        <a
-                            href="#"
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                            >Your Profile</a
-                        >
-                        <a
-                            href="#"
-                            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                            >Settings</a
-                        >
-                        <a
-                            href="#"
-                            class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                            >Sign out</a
-                        >
-                    </div>
                 </div>
             </div>
         </nav>
@@ -173,6 +133,6 @@ export default {
 
 <style scoped>
 .nuxt-link-exact-active {
-    @apply px-3 py-2 rounded-md text-sm font-medium text-white bg-teal-600 dark:bg-indigo-800 focus:outline-none;
+    @apply text-white bg-teal-600 dark:bg-indigo-800 focus:outline-none;
 }
 </style>

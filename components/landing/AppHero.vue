@@ -4,9 +4,9 @@
             <div class="items-center md:flex">
                 <div class="w-full md:w-1/2" data-aos="zoom-in-right">
                     <div class="max-w-lg">
-                        <h1 class="text-2xl font-semibold text-gray-800 uppercase dark:text-white md:text-3xl" >Best Place To Choose Your Clothes</h1>
+                        <h1 class="text-2xl font-semibold text-gray-800 uppercase dark:text-white md:text-3xl" >Best Place To Choose Your Website</h1>
                         <p class="mt-2 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio.</p>
-                        <button class="px-3 py-2 mt-4 text-sm font-medium text-white uppercase bg-teal-600 dark:bg-indigo-600 rounded-md hover:bg-teal-500 focus:outline-none focus:bg-teal-500">Shop Now</button>
+                        <button class="px-3 py-2 mt-4 text-sm font-medium text-white uppercase bg-teal-600 dark:bg-indigo-600 rounded-md hover:bg-teal-500 focus:outline-none focus:bg-teal-500" @click="toProject">Browse Now</button>
                     </div>
                 </div>
         
@@ -20,7 +20,11 @@
 
 <script>
     export default {
-        
+        methods: {
+            toProject(){
+                this.$router.push({path: '/projects'})
+            }
+        },
     }
 </script>
 

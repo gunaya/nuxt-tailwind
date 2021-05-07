@@ -85,7 +85,7 @@
         </div>
         
         <div class="sm:flex flex-wrap justify-center items-center text-center gap-8">
-            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800" data-aos="zoom-in" data-aos-delay="250">
+            <div class=" mx-auto md:mx-0 w-4/5 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800" data-aos="zoom-in" data-aos-delay="250">
                 <div class="flex-shrink-0">
                     <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-teal-600 dark:bg-indigo-500 text-white">
                         <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -101,7 +101,7 @@
                     Encompassing today’s website design technology to integrated and build solutions relevant to your business.
                 </p>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800" data-aos="zoom-in" data-aos-delay="250">
+            <div class=" mx-auto md:mx-0 w-4/5  sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 mt-6 sm:mt-16 md:mt-20 lg:mt-24 bg-white shadow-lg rounded-lg dark:bg-gray-800" data-aos="zoom-in" data-aos-delay="250">
                 <div class="flex-shrink-0">
                     <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-teal-600 dark:bg-indigo-500 text-white">
                         <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +117,7 @@
                     Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
                 </p>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800" data-aos="zoom-in" data-aos-delay="250">
+            <div class=" mx-auto md:mx-0 w-4/5  sm:w-1/2 md:w-1/2 lg:w-1/4 mt-6  px-4 py-4 bg-white shadow-lg rounded-lg dark:bg-gray-800" data-aos="zoom-in" data-aos-delay="250">
                 <div class="flex-shrink-0">
                     <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-teal-600 dark:bg-indigo-500 text-white">
                         <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
