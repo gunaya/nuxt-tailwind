@@ -2,7 +2,7 @@
     <div>
         <div class="container px-6 py-16 mx-auto">
             <div class="items-center md:flex">
-                <div class="w-full md:w-1/2">
+                <div class="w-full md:w-1/2" data-aos="zoom-in-right">
                     <div class="max-w-lg">
                         <h1 class="text-2xl font-semibold text-gray-800 uppercase dark:text-white md:text-3xl" >Best Place To Choose Your Clothes</h1>
                         <p class="mt-2 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae error laborum ab amet sunt recusandae? Reiciendis natus perspiciatis optio.</p>

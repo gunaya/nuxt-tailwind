@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white dark:bg-midnight w-full h-full min-w-screen min-h-screen">
+  <div class="flex flex-col h-screen justify-between">
     <app-navbar />
     <!-- content -->
-    <div class="">
+    <div class="bg-white dark:bg-midnight mb-auto">
       <Nuxt />
     </div>
 

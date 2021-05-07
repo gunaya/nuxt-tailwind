@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="">
         <!-- navbar -->
-        <nav class=" bg-white dark:bg-gray-900 shadow">
+        <nav class=" bg-white shadow border-b dark:border-transparent dark:bg-gray-900">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center">
@@ -16,20 +16,20 @@
                             <div class="ml-3 relative">
                                 <div class="hidden md:block">
                                     <div class="ml-10 flex items-baseline">
-                                        <a
-                                            href="#"
-                                            class="px-3 py-2 rounded-md text-sm font-medium text-white bg-teal-600 dark:bg-indigo-900 focus:outline-none focus:text-white focus:bg-gray-700"
-                                            >Dashboard
-                                        </a>
+                                        <NuxtLink
+                                            to="/"
+                                            class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                                            >Home
+                                        </NuxtLink>
+                                        <NuxtLink 
+                                            to="/projects" 
+                                            class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">
+                                            Projects
+                                        </NuxtLink>
                                         <a
                                             href="#"
                                             class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                                             >Team
-                                        </a>
-                                        <a
-                                            href="#"
-                                            class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                                            >Projects
                                         </a>
                                     </div>
                                 </div>
@@ -91,19 +91,19 @@
             <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
                 <div class="px-2 pt-2 pb-3 sm:px-3">
                     <a
-                        href="#"
-                        class="block px-3 py-2 rounded-md text-base font-medium text-white bg-teal-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                        >Dashboard</a
+                        href="/"
+                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                        >Home</a
+                    >
+                    <a
+                        href="/projects"
+                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                        >Projects</a
                     >
                     <a
                         href="#"
                         class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                         >Team</a
-                    >
-                    <a
-                        href="#"
-                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                        >Projects</a
                     >
                 </div>
                 <div class="pt-4 pb-3 border-t border-gray-700">
@@ -167,6 +167,12 @@ export default {
         btnLabel() {
             return this.$colorMode.preference === 'dark' ? 'dark' : 'light'
         }
-    }
+    },
 };
 </script>
+
+<style scoped>
+.nuxt-link-exact-active {
+    @apply px-3 py-2 rounded-md text-sm font-medium text-white bg-teal-600 dark:bg-indigo-800 focus:outline-none;
+}
+</style>
