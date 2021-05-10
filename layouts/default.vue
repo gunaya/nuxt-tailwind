@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col h-screen justify-between">
+  <div class="flex flex-col min-h-screen justify-between font-body bg-white dark:bg-gray-900 ">
     <app-navbar />
     <!-- content -->
-    <div class="bg-white dark:bg-midnight mb-auto">
+    <div class="mb-auto">
       <Nuxt />
     </div>
 

@@ -1,5 +1,65 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../font/poppins-v15-latin-400.woff2');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 500;
+    src: url('../font/poppins-v15-latin-500.woff2');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    src: url('../font/poppins-v15-latin-600.woff2');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url('../font/poppins-v15-latin-700.woff2');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 800;
+    src: url('../font/poppins-v15-latin-800.woff2');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url('../font/poppins-v15-latin-900.woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url('../font/inter-v3-latin-400.woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    src: url('../font/inter-v3-latin-500.woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    src: url('../font/inter-v3-latin-600.woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-weight: 700;
+    src: url('../font/inter-v3-latin-700.woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-weight: 800;
+    src: url('../font/inter-v3-latin-800.woff2');
+}
+@font-face {
+    font-family: 'Inter';
+    font-weight: 900;
+    src: url('../font/inter-v3-latin-900.woff2');
+}

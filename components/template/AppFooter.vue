@@ -36,16 +36,15 @@
                     <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
                         <div>
                             <h3 class="text-gray-700 uppercase dark:text-white">About</h3>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Company</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">community</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Careers</a>
+                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">About Us</a>
+                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Team</a>
                         </div>
 
                         <div>
                             <h3 class="text-gray-700 uppercase dark:text-white">Products</h3>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Mega cloud</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Aperion UI</a>
-                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Meraki UI</a>
+                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Loram</a>
+                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Loram</a>
+                            <a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Loram</a>
                         </div>
 
                         <div>

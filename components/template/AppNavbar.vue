@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <!-- navbar -->
-        <nav class=" bg-white shadow border-b dark:border-transparent dark:bg-gray-900">
+        <nav class=" bg-white shadow dark:border-transparent dark:bg-gray-900">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center">
@@ -26,11 +26,16 @@
                                             class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">
                                             Projects
                                         </NuxtLink>
-                                        <a
-                                            href="#"
+                                        <NuxtLink
+                                            to="/team"
                                             class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                                             >Team
-                                        </a>
+                                        </NuxtLink>
+                                        <NuxtLink
+                                            to="/about"
+                                            class="ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                                            >About Us
+                                        </NuxtLink>
                                     </div>
                                 </div>
                             </div>
