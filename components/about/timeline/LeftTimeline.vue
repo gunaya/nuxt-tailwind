@@ -14,8 +14,8 @@
             </div>
         </div>
         <div class="flex justify-center mx-auto col-start-1 row-start-1 md:col-start-5">
-            <div class="bg-indigo-400 flex h-full justify-center relative w-0.5 pt-4">
-                <div class="absolute bg-indigo-600 border-indigo-400 border-2 w-6 h-6 rounded-full my-auto z-10" data-aos="zoom-in"></div>
+            <div class="bg-teal-400 dark:bg-indigo-400 flex h-full justify-center relative w-0.5 pt-4">
+                <div class="absolute bg-teal-600 dark:bg-indigo-600  border-teal-400 dark:border-indigo-400 border-2 w-6 h-6 rounded-full my-auto z-10" data-aos="zoom-in"></div>
             </div>
         </div>
         <div class="col-span-4 hidden md:block">

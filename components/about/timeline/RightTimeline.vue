@@ -2,8 +2,8 @@
     <div class="grid grid-cols-9">
         <div class="col-span-4 ml-auto hidden md:block"></div>
         <div class="flex justify-center mx-auto">
-            <div class="bg-indigo-400 flex h-full justify-center relative w-0.5 pt-4">
-                <div class="absolute bg-indigo-600 border-indigo-400 border-2 w-6 h-6 rounded-full my-auto z-10" data-aos="zoom-in"></div>
+            <div class="bg-teal-400 dark:bg-indigo-400 flex h-full justify-center relative w-0.5 pt-4">
+                <div class="absolute bg-teal-600 dark:bg-indigo-600  border-teal-400 dark:border-indigo-400 border-2 w-6 h-6 rounded-full my-auto z-10" data-aos="zoom-in"></div>
             </div>
         </div>
         <div class="col-span-8 md:col-span-4 md:mr-auto" data-aos="fade-right" >
