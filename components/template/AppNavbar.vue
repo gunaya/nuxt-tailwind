@@ -105,10 +105,15 @@
                         class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                         >Projects</NuxtLink
                     >
-                    <a
-                        href="#"
+                    <NuxtLink
+                        to="/team"
                         class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                        >Team</a
+                        >Team</NuxtLink
+                    >
+                    <NuxtLink
+                        to="/about"
+                        class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                        >About Us</NuxtLink
                     >
                 </div>
             </div>

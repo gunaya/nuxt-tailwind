@@ -5,7 +5,7 @@
         <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
             <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
                 <span class="font-bold text-teal-600 dark:text-gray-200">App Name</span>
-                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-teal-600 dark:bg-indigo-600 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none ">Live Demo</button>
+                <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-teal-600 dark:bg-indigo-600 rounded hover:bg-teal-500 dark:hover:bg-indigo-500 focus:bg-teal-500 dark:focus:bg-indigo-500 focus:outline-none ">Live Demo</button>
             </div>
             
             <p class="py-2 px-3 text-sm text-gray-600 dark:text-gray-200 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
