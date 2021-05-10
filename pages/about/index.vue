@@ -1,11 +1,11 @@
 <template>
     <div class="p-12">
         <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center">
-            <div class=" -mx-4 md:-mx-12 relative mt-0 lg:col-start-1">
+            <div class=" -mx-4 md:-mx-12 relative mt-0 lg:col-start-1" data-aos="fade-right">
                 <img src="https://www.tailwind-kit.com/images/object/9.jpg" alt="illustration" class="relative mx-auto shadow-lg rounded w-56 lg:w-full md:max-w-sm" />
             </div>
 
-            <div class=" mt-10 lg:mt-10 lg:col-start-2">
+            <div class=" mt-10 lg:mt-10 lg:col-start-2" data-aos="zoom-in">
                 <h4 class="text-3xl leading-8 tracking-wider text-center lg:text-left font-bold text-gray-900 dark:text-white sm:leading-9">
                     Who We Are
                 </h4>
@@ -18,9 +18,11 @@
         <div class="mt-20" data-aos="fade-up">
             <p class="text-center text-3xl font-bold text-gray-800 dark:text-white mb-12 ml-4">Our Jurney</p>
 
-            <left-timeline />
-            <right-timeline />
-            <left-timeline />
+            <template>
+                <left-timeline />
+                <right-timeline />
+                <left-timeline />
+            </template>
         </div>
     </div>
 </template>

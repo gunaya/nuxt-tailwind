@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-9">
-        <div class=" col-span-8 md:col-span-4 md:ml-auto col-start-2 md:col-start-1" data-aos="fade-left" data-aos-offset="100">
+        <div class=" col-span-8 md:col-span-4 md:ml-auto col-start-2 md:col-start-1" data-aos="fade-left">
             <div class="md:pl-8 py-4 w-64 md:w-full md:max-w-sm">
                 <h2 class="text-gray-700 dark:text-gray-200 font-medium tracking-wide text-lg uppercase"> 10 Mei 2021 </h2>
                 <img class=" object-cover object-center rounded-md mt-2 shadow-md" 
