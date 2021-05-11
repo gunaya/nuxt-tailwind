@@ -1,4 +1,9 @@
-# nuxt-tailwind
+# NUXT-TAILWIND
+> Simple NuxtJS + TailwindCSS project
+> Utilizing Tailwind Dark Mode, NuxtJS Color Mode, Animate On Scroll
+
+## Demo
+[Live Demo](https://nuxt-tailwind.herokuapp.com/)
 
 ## Build Setup
 
@@ -16,5 +21,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
