@@ -1,6 +1,6 @@
 <template>
     <div class="text-gray-800 dark:text-white bg-gray-200 dark:bg-gray-800">
-        <div class="container py-6">
+        <div class="py-6">
             <h1 class="text-lg font-bold text-center lg:text-2xl">
                 Join 31,000+ other and never miss <br> out on new tips, tutorials, and more.
             </h1>
@@ -20,7 +20,7 @@
 
 <script>
     export default {
-        
+
     }
 </script>
 

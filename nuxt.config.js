@@ -16,7 +16,14 @@ export default {
   },
 
   router: {
-    
+
+  },
+
+  /*
+  ** Server Middleware
+  */
+  serverMiddleware: {
+    '/api': '~/api'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -50,7 +57,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  
+
   purgeCSS: {
     whitelist: ['dark-mode', "aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"]
   },

@@ -1,7 +1,7 @@
 <template>
     <div class="">
         <div class="w-full p-12">
-            <p class="text-center text-3xl font-bold text-gray-800 dark:text-white mb-12 ml-4">
+            <p class="text-center text-3xl font-bold text-gray-800 dark:text-white xl:mb-32 md:mb-12 ml-4">
                 Projects
                 <br>
                 <span class="text-xl font-normal text-gray-500 dark:text-gray-200">
